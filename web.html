@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism</title>
+    <link rel="stylesheet" href="web.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="logo/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Destination
+                </a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Destination Details</a></li>
+                      <li><a class="dropdown-item" href="#">Elements</a></li>
+                    </ul>
+                  </li>
+
+                
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <div class="container-fluid d-flex gap-5 fs-6">
+                
+                <div class="icon  gap-5 fs-9 d-flex mt-5">
+                    <ion-icon name="call-outline"></ion-icon> <p>+92 34564875298</p>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-facebook"></ion-icon> 
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+                <i class="bi bi-camera fs-1 bg-danger "><ion-icon name="search-outline"></ion-icon></i> 
+            </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+     <!-- ion icon script start -->
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!-- ion icon script link end -->
+<!-- Bootstrap Carousel -->
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- First Slide -->
+      <div class="carousel-item active">
+        <div class="position-relative">
+          <img src="banners/banner.png" class="d-block w-100" alt="...">
+          <!-- Text overlay on the image -->
+          <div class="position-absolute top-50 start-50 translate-middle text-white text-center ">
+            <h3 class="fs-1">Indonesia </h3>
+            <p>Pixel perfect design with awesome contents</p> 
+            <button style="border:2px  solid white; background-color: aqua; padding: 15px;">EXPLORE NOW</button>
+          </div>
+        </div>
+      </div>
+      <!-- Second Slide -->
+      <div class="carousel-item">
+        <div class="position-relative">
+          <img src="banners/banner2.png" class="d-block w-100" alt="...">
+          <div class="position-absolute top-50 start-50 translate-middle text-white text-center">
+            <h3>Swizer-Land</h3>
+            <p>Pixel perfect design with awesome contents</p>
+            <button style="border:2px  solid white; background-color: aqua; padding: 15px;">EXPLORE NOW</button>
+          </div>
+        </div>
+      </div>
+      <!-- Third Slide -->
+      <div class="carousel-item">
+        <div class="position-relative">
+          <img src="banners/banner3.png" class="d-block w-100" alt="...">
+          <div class="position-absolute top-50 start-50 translate-middle text-white text-center">
+            <h3>Australia</h3>
+            <p>Pixel perfect design with awesome contents</p>
+            <button style="border:2px  solid white; background-color: aqua;padding: 15px;">EXPLORE NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="main">
+   <div class="a1"> <p>Where you want to go?</p></div>
+   <div class=""> <button><input type="date" class="date" placeholder="Date"></button></div>
+    <div class="op">
+        <select name="" id="">
+            <p>Travel Type</p>
+            <option value="">Some Option</option>
+            <option value="">Travel type</option>
+            <option value="">Other Type of  option</option>
+        </select>
+    </div>
+    <div class="sr">
+        <p>Search</p>
+    </div>
+  </div>
+ <div class="main1">
+  <h1>Popular Destination </h1> 
+  <p>Suffered alteration in some form,by injected humour or good day <br>randomised both anim 8-bit hella wolf moon beared words.</p>
+</div>
+<br>
+<br>
+    <!-- <div class="row1">
+        <div class="pic1">
+            <img src="destination/1.png" alt="">
+            <div class="text1">Italy <button>07 Places</button>
+            </div>
+
+        </div>
+        <div class="pic2">
+            <img src="destination/2.png" alt="">
+        </div>
+        <div class="pic3">
+            <img src="destination/3.png" alt="">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row2">
+        <div class="pic4">
+            <img src="destination/4.png" alt="">
+        </div>
+        <div class="pic5">
+            <img src="destination/5.png" alt="">
+        </div>
+        <div class="pic6">
+            <img src="destination/6.png" alt="">
+        </div>
+    </div> -->
+    <div class="container my-5">
+      <div class="row g-4">
+          <div class="col-md-4">
+              <div class="destination">
+                  <img src="destination/1.png" alt="Italy">
+                  <div class="destination-info bg-danger">
+                      <h5>Italy</h5>
+                      <span>07 Places</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="destination">
+                  <img src="destination/2.png" alt="Brazil">
+                  <div class="destination-info bg-danger">
+                      <h5>Brazil</h5>
+                      <span>03 Places</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="destination">
+                  <img src="destination/3.png" alt="America">
+                  <div class="destination-info  bg-danger">
+                      <h5>America</h5>
+                      <span>10 Places</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="destination">
+                  <img src="destination/4.png" alt="Nepal">
+                  <div class="destination-info   bg-danger">
+                      <h5>Nepal</h5>
+                      <span>02 Places</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="destination">
+                  <img src="destination/5.png" alt="Maldives">
+                  <div class="destination-info bg-danger">
+                      <h5>Maldives</h5>
+                      <span>02 Places</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="destination">
+                  <img src="destination/6.png" alt="Indonesia">
+                  <div class="destination-info  bg-danger">
+                      <h5>Indonesia</h5>
+                      <span>05 Places</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="main2">
+    <div class="text">
+      <b>Subscribe Our NewsLetter</b> <br>Subscribe our newsletter to get offers and about <br> new places to discover.
+    </div>
+    <div class="mail">
+      <input type="email" placeholder=" Your mail">
+    </div>
+    <div class="btn">
+      <p>subscribe</p>
+    </div>
+  </div>
+  <div class="main3">
+    <h1>Popular Places </h1> 
+    <p>Suffered alteration in some form,by injected humour or good day <br>randomised both anim 8-bit hella wolf moon beared words.</p>
+  </div>
+  <div class="container mt-4">
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card position-relative">
+                <img src="places/1 (1).png" alt="California">
+                <span class="price-badge">$500</span>
+                <div class="card-body">
+                    <h5 class="card-title">California</h5>
+                    <p class="text-muted">United State of America</p>
+                    <p class="text-warning">★★★★★ (20 Reviews)</p>
+                    <p><i class="bi bi-clock"></i> 5 Days</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card position-relative">
+                <img src="places/2 (2).png" alt="Korola Megna">
+                <span class="price-badge">$500</span>
+                <div class="card-body">
+                    <h5 class="card-title">Korola Megna</h5>
+                    <p class="text-muted">United State of America</p>
+                    <p class="text-warning">★★★★★ (20 Reviews)</p>
+                    <p><i class="bi bi-clock"></i> 5 Days</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card position-relative">
+                <img src="places/3 (1).png" alt="London">
+                <span class="price-badge">$500</span>
+                <div class="card-body">
+                    <h5 class="card-title">London</h5>
+                    <p class="text-muted">United State of America</p>
+                    <p class="text-warning">★★★★★ (20 Reviews)</p>
+                    <p><i class="bi bi-clock"></i> 5 Days</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-4">
+  <div class="row g-4">
+      <div class="col-md-4">
+          <div class="card position-relative">
+              <img src="places/6 (1).png" alt="California">
+              <span class="price-badge">$500</span>
+              <div class="card-body">
+                  <h5 class="card-title">Saintmartine IceLand</h5>
+                  <p class="text-muted">United State of America</p>
+                  <p class="text-warning">★★★★★ (20 Reviews)</p>
+                  <p><i class="bi bi-clock"></i> 5 Days</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card position-relative">
+              <img src="places/5 (1).png" alt="Korola Megna">
+              <span class="price-badge">$500</span>
+              <div class="card-body">
+                  <h5 class="card-title">California</h5>
+                  <p class="text-muted">United State of America</p>
+                  <p class="text-warning">★★★★★ (20 Reviews)</p>
+                  <p><i class="bi bi-clock"></i> 5 Days</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card position-relative">
+              <img src="places/4 (2).png" alt="London">
+              <span class="price-badge">$500</span>
+              <div class="card-body">
+                  <h5 class="card-title">Miami Beech</h5>
+                  <p class="text-muted">United State of America</p>
+                  <p class="text-warning">★★★★★ (20 Reviews)</p>
+                  <p><i class="bi bi-clock"></i> 5 Days</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<br> <br> <br> <br> <br> <br>
+<div class="main5">
+  <div class="svg1">
+    <img src="svg icons/1.svg" alt="">
+    <br><br><br>
+    <p><b>Comfortable Journey</b> <br>
+    A wonderful senerity has taken to the <br>possession of my entire soul.</p>
+  </div>
+  <div class="svg2">
+    <img src="svg icons/2.svg" alt=""> 
+    <br> <br><br>
+    <p><b>Luxurious Hotel</b> <br>
+      A wonderful senerity has taken to the <br>possession of my entire soul.</p>
+  </div>
+  <div class="svg3">
+    <img src="svg icons/3.svg" alt=""> 
+    <br><br><br>
+    <p><b>Travel Guide</b> <br>
+      A wonderful senerity has taken to the <br>possession of my entire soul.</p>
+  </div>
+</div>
+
+<div class="main6">
+  <h1>Popular Places </h1> 
+  </div>
+  <br><br>
+  <div class="main7">
+    <div class="trip1">
+      <img src="trip/1 (2).png" alt="">
+      <br><br>
+      <p><b>Journeys are Best Measured in  <br>New Friends.</b></p>
+    </div>
+    <div class="trip2">
+      <img src="trip/2 (3).png" alt="">
+      <br><br>
+      <p><b>Journeys are Best Measured in  <br>New Friends.</b></p>
+    </div>
+    <div class="trip3">
+      <img src="trip/3 (2).png" alt="">
+      <br><br>
+      <p><b>Journeys are Best Measured in  <br>New Friends.</b></p>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h5 class="mb-3"><img src="logo/logo.png" alt="Logo"> Travelo</h5>
+                <p>5th flora, 700/D kings road, green lane New York-1782</p>
+                <p>+10 367 826 2567</p>
+                <p>contact@carpenter.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"><ion-icon name="logo-facebook"></ion-icon></i></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"><ion-icon name="logo-pinterest"></ion-icon></i></a>
+                    <a href="#"><i class="fab fa-youtube"><ion-icon name="logo-youtube"></ion-icon></i></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5>Company</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Popular Destination</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Indonesia</a></li>
+                    <li><a href="#">India</a></li>
+                    <li><a href="#">Italy</a></li>
+                    <li><a href="#">France</a></li>
+                    <li><a href="#">America</a></li>
+                    <li><a href="#">Switzerland</a></li>
+                    <li><a href="#">Canada</a></li>
+                    <li><a href="#">England</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 instagram">
+                <h5>Instagram</h5>
+                <div>
+                    <img src="trip/2 (3).png" alt="">
+                    <img src="places/4 (1).png" alt="">
+                    <img src="destination/3.png" alt="">
+                    <img src="trip/1 (2).png" alt="">
+                    <img src="trip/3 (2).png" alt="">
+                    <img src="destination/6.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <p>Copyright &copy;2025 All rights reserved | This template is made with <span style="color: red;">&hearts;</span> by <a href="#" class="text-white">Colorlib</a></p>
+        </div>
+    </div>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   </body>
+   </html>
